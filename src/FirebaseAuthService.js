@@ -19,7 +19,7 @@ const sendPasswordResetEmail = (email) => {
 };
 
 const logInWithGoogle = () => {
-    const provider = new firebase.auth.GoogleAuthProvider;
+    const provider = new firebase.auth.GoogleAuthProvider();
 
     return auth.signInWithPopup(provider);
 };
