@@ -35,13 +35,13 @@ function LoginForm({ existingUser }) {
         }
     }
 
-    async function handleLoginWithGoogle() {
-        try {
-            await FirebaseAuthService.logInWithGoogle();
-        } catch (error) {
-            alert(error.message);
-        }
-    }
+    // async function handleLoginWithGoogle() {
+    //     try {
+    //         await FirebaseAuthService.logInWithGoogle();
+    //     } catch (error) {
+    //         alert(error.message);
+    //     }
+    // }
 
     return (
         <div className='login-form-container'>
